@@ -22,3 +22,4 @@ Practical notes for interviews:
 Sensitive to outliers (since it uses means) and to feature scale (always standardize/normalize features first)
 Time complexity is roughly O(n·k·i·d) — scales well, which is why it's preferred over Hierarchical Clustering for large datasets
 Common follow-up question: "How is it different from DBSCAN?" → K-Means needs k upfront and assumes spherical clusters; DBSCAN finds clusters of arbitrary shape and detects noise/outliers automatically without specifying k.
+<img width="832" height="365" alt="image" src="https://github.com/user-attachments/assets/bb3074e3-f88f-4f69-abb8-9d18760a41d6" />
